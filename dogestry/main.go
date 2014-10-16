@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	//"os"
-	"github.com/newrelic-forks/dogestry/cli"
+	"github.com/blake-education/dogestry/cli"
 	"log"
 	"runtime"
 )

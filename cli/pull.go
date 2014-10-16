@@ -8,8 +8,8 @@ import (
 	"os/exec"
 	"path/filepath"
 
+	"github.com/blake-education/dogestry/remote"
 	docker "github.com/fsouza/go-dockerclient"
-	"github.com/newrelic-forks/dogestry/remote"
 )
 
 func (cli *DogestryCli) CmdPull(args ...string) error {

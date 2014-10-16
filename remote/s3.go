@@ -1,9 +1,9 @@
 package remote
 
 import (
+	"github.com/blake-education/dogestry/utils"
 	"github.com/crowdmob/goamz/aws"
 	"github.com/crowdmob/goamz/s3"
-	"github.com/newrelic-forks/dogestry/utils"
 
 	"bufio"
 	"encoding/json"
