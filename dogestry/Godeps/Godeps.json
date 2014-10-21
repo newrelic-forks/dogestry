@@ -1,0 +1,26 @@
+{
+	"ImportPath": "github.com/newrelic-forks/dogestry/dogestry",
+	"GoVersion": "go1.3.1",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "code.google.com/p/gcfg",
+			"Rev": "c2d3050044d05357eaf6c3547249ba57c5e235cb"
+		},
+		{
+			"ImportPath": "github.com/crowdmob/goamz/aws",
+			"Rev": "60a2e146d0947c2f4e0dc6f519aa8daf343561bd"
+		},
+		{
+			"ImportPath": "github.com/crowdmob/goamz/s3",
+			"Rev": "60a2e146d0947c2f4e0dc6f519aa8daf343561bd"
+		},
+		{
+			"ImportPath": "github.com/fsouza/go-dockerclient",
+			"Comment": "0.2.1-269-g949b652",
+			"Rev": "949b65236a770c3bd15126e9047a41462bb24811"
+		}
+	]
+}
